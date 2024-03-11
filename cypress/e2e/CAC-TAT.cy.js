@@ -14,7 +14,6 @@ describe('Central de Atendimento ao Cliente TAT', function () {
 
     it('preenche os campos obrigatórios e envia o formulário', function () {
         const longText = 'GET /v4/threatListUpdates:fetch?$req=Ch 0KDGdvb2d sZWNocm9tZR INMTIyLjAuNj4 aAhgDnzpgjSIEI AEgAigBGikIAxAB GhsKDQgDEAYYASI DMDAxMAEQi fcNGgIYA1z6vhIiBCA BI AIoARopC A4QARobCg 0IDhAGGAEiAzAwMT ABEOKz'
-        
         cy.clock()
         
         cy.get('#firstName').type('Chico')
